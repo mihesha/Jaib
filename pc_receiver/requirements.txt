@@ -1,0 +1,4 @@
+# متطلبات تشغيل برنامج ويندوز (Jeeb Deposit Bridge - PC Receiver)
+# هذا البرنامج يعتمد على مكتبات بايثون القياسية المدمجة مع Python 3.10+
+# لا توجد حزم إضافية إجبارية في النسخة الحالية.
+# (Standard Library Only: tkinter, sqlite3, http.server, json, socket, threading, hashlib, secrets)

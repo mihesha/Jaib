@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">جيّب — المدير</string>
+    <string name="title_manager">جسر إشعارات إيداع جيب (المدير)</string>
+    <string name="desc_manager">يراقب إشعارات محفظة جيب ويرسل SMS تلقائيًا لهاتف الكاشير</string>
+    <string name="label_cashier_phone">رقم هاتف الكاشير (مثال: +9677XXXXXXXX):</string>
+    <string name="hint_cashier_phone">+967700000000</string>
+    <string name="label_keywords">الكلمات المفتاحية لمطابقة الإشعار (مفصولة بفاصلة):</string>
+    <string name="default_keywords">جيب,jeeb,إيداع,استلام,حوالة</string>
+    <string name="btn_save">حفظ الإعدادات</string>
+    <string name="btn_permission_sms">طلب إذن إرسال SMS</string>
+    <string name="btn_permission_listener">تفعيل صلاحية الوصول للإشعارات</string>
+    <string name="btn_send_test">إرسال SMS تجريبي للكاشير</string>
+    <string name="status_ready">النظام جاهز لمراقبة الإشعارات</string>
+    <string name="warning_financial">تنبيه: هذا التطبيق ينقل الإشعارات فقط ولا يتحقق من الرصيد الفعلي في محفظة جيب.</string>
+</resources>

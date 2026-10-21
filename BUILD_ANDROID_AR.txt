@@ -1,0 +1,32 @@
+دليل بناء تطبيقي أندرويد (تطبيق المدير وتطبيق الكاشير)
+=============================================================
+المشروع: جسر إشعارات إيداع جيب (Jeeb Deposit Bridge)
+الإصدار: 0.1.0
+
+المتطلبات الأساسية:
+1. تثبيت Android Studio (إصدار Ladybug 2024.2.1 أو أحدث).
+2. تثبيت Java Development Kit (JDK 17).
+3. Android SDK Platform 35 و Android Build-Tools 35.0.0.
+
+خطوات البناء عبر Android Studio:
+1. افتح Android Studio واختر "Open" ثم حدد المجلد الرئيسي للمشروع.
+2. انتظر مزامنة Gradle (Sync Project with Gradle Files).
+3. لاختيار تطبيق المدير:
+   - من شريط الأدوات العلوي، اختر Target Module باسم "manager".
+   - من القائمة اختر Build > Build Bundle(s) / APK(s) > Build APK(s).
+   - ستجد ملف APK في: manager/build/outputs/apk/debug/manager-debug.apk
+4. لاختيار تطبيق الكاشير:
+   - اختر Target Module باسم "cashier".
+   - من القائمة اختر Build > Build Bundle(s) / APK(s) > Build APK(s).
+   - ستجد ملف APK في: cashier/build/outputs/apk/debug/cashier-debug.apk
+
+خطوات التثبيت على الهواتف عبر ADB:
+- لتثبيت تطبيق المدير:
+  adb install manager/build/outputs/apk/debug/manager-debug.apk
+- لتثبيت تطبيق الكاشير:
+  adb install cashier/build/outputs/apk/debug/cashier-debug.apk
+
+ملاحظات هامة بعد التثبيت:
+- تطبيق المدير يتطلب تفعيل خدمة قراءة الإشعارات يدويًا من إعدادات أندرويد (Notification Listener).
+- تطبيق المدير يتطلب إذن SEND_SMS.
+- تطبيق الكاشير يتطلب إذن RECEIVE_SMS، وإذن الوصول للشبكة المحلية INTERNET.

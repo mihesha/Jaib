@@ -1,0 +1,5 @@
+{
+  "port": 8765,
+  "pairing_token": "jeeb_sec_token_demo12345",
+  "allowed_origins": ["*"]
+}

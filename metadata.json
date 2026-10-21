@@ -1,0 +1,6 @@
+{
+  "name": "جسر إشعارات إيداع جيب | Jeeb Deposit Bridge",
+  "description": "نظام متكامل لنقل إشعارات إيداع جيب من هاتف المدير إلى الكاشير عبر SMS ومحليًا إلى كمبيوتر المحل بدون إنترنت مع محاكي تفاعلي وكود مصدري كامل",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">جيّب — الكاشير</string>
+    <string name="title_cashier">جسر إشعارات إيداع جيب (الكاشير)</string>
+    <string name="desc_cashier">يستقبل SMS من هاتف المدير ويحولها للكمبيوتر عبر الشبكة المحلية LAN</string>
+    <string name="label_manager_phone">رقم هاتف المدير المعتمد:</string>
+    <string name="hint_manager_phone">+9677XXXXXXXX</string>
+    <string name="label_pc_ip">عنوان IP للكمبيوتر في المحل:</string>
+    <string name="hint_pc_ip">192.168.1.100</string>
+    <string name="label_pc_port">المنفذ (الافتراضي 8765):</string>
+    <string name="hint_pc_port">8765</string>
+    <string name="label_pair_token">رمز الربط (من شاشة الكمبيوتر):</string>
+    <string name="hint_pair_token">أدخل رمز الربط</string>
+    <string name="btn_save">حفظ الإعدادات</string>
+    <string name="btn_permission_sms">طلب إذن استقبال SMS</string>
+    <string name="btn_test_connection">اختبار الاتصال بكمبيوتر الكاشير</string>
+    <string name="warning_financial">تنبيه مالي: هذا النظام ينقل إشعارًا فقط ولا يتصل بمحفظة جيب مباشرة.</string>
+</resources>

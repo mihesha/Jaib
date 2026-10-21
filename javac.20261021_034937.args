@@ -1,0 +1,11 @@
+-source
+8
+-target
+8
+-bootclasspath
+/usr/lib/android-sdk/platforms/android-23/android.jar
+-d
+/tmp/build_manager/obj
+/tmp/build_manager/gen/com/jeeey/depositmanager/R.java
+/tmp/build_manager/src/com/jeeey/depositmanager/DepositNotificationListener.java
+/tmp/build_manager/src/com/jeeey/depositmanager/MainActivity.java
